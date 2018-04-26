@@ -18,4 +18,6 @@ int main() {
     int v[] = {3,4,11,65,4,19,345,12,435,6};
     shell_sort(v, 10);
     for (int i=0; i<10; i++) printf("%d ", v[i]);
+    /*printf("\n%s", __STDC_VERSION__);*/
+    printf("\n%s", __DATE__);
 }
